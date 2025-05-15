@@ -25,4 +25,4 @@ jobs:
         run: npm install -g newman
 
       - name: Run Postman Collection
-        run: newman run .Postman\APITestingProject-I.postman_collection.json
+        run: newman run ./postman/collection.json
